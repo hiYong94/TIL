@@ -18,3 +18,5 @@
   | 5 | 같은 숫자는 싫어 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12906) | 완료 |
   | 6 | 가운데 글자 가져오기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12906) | 완료 |
   | 7 | 제일 작은 수 제거하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12935) | 진행 중 |
+  | 8 | 짝수와 홀수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12937) | 완료 |
+  | 9 | 평균 구하기  | [출처](https://programmers.co.kr/learn/courses/30/lessons/12944) | 완료 |
