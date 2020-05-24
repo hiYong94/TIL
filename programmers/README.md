@@ -20,3 +20,4 @@
   | 7 | 제일 작은 수 제거하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12935) | 진행 중 |
   | 8 | 짝수와 홀수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12937) | 완료 |
   | 9 | 평균 구하기  | [출처](https://programmers.co.kr/learn/courses/30/lessons/12944) | 완료 |
+  | 10 | 자릿수 더하기  | [출처](https://programmers.co.kr/learn/courses/30/lessons/12931) | 완료 |
