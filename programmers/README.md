@@ -25,3 +25,4 @@
   | 12 | 정수 제곱근 판별 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12934) | 완료 |
   | 13 | x만큼 간격이 있는 n개의 숫자 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12954) | 완료 |
   | 14 | 행렬의 덧셈 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12950) | 완료 |
+  | 15 | 문자열 내 p와 y의 개수  | [출처](https://programmers.co.kr/learn/courses/30/lessons/12916) | 완료 |
