@@ -29,3 +29,4 @@
   | 16 | 이상한 문자 만들기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12930) | 완료 |
   | 17 | 자연수 뒤집어 배열로 만들기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12932) | 완료 |
   | 18 | 하샤드 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12947) | 완료 |
+  | 19 | 정수 내림차순으로 배치하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12933) | 완료 |
