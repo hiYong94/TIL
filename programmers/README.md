@@ -30,3 +30,4 @@
   | 17 | 자연수 뒤집어 배열로 만들기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12932) | 완료 |
   | 18 | 하샤드 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12947) | 완료 |
   | 19 | 정수 내림차순으로 배치하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12933) | 완료 |
+  | 20 | 핸드폰 번호 가리기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12948) | 완료 |
