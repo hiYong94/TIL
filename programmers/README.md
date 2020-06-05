@@ -31,3 +31,5 @@
   | 18 | 하샤드 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12947) | 완료 |
   | 19 | 정수 내림차순으로 배치하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12933) | 완료 |
   | 20 | 핸드폰 번호 가리기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12948) | 완료 |
+  | 21 | 콜라츠 추측 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12943) | 완료 |
+  | 22 | 문자열 내림차순으로 배치하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12917) | 완료(재풀이 예정) |
