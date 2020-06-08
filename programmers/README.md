@@ -36,4 +36,5 @@
   | 23 | 서울에서 김서방 찾기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12919) | 완료 |
   | 24 | 수박수박수박수박수박수? | [출처](https://programmers.co.kr/learn/courses/30/lessons/12922) | 완료 |
   | 25 | 나누어 떨어지는 숫자 배열 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12910) | 완료 |
-  | 26 | 시저 암호 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12926) | 진행 중 |
+  | 26 | 시저 암호 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12926) | 완료 |
+  | 27 | 문자열 내 마음대로 정렬하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12915) | 완료 |
