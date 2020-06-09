@@ -38,3 +38,9 @@
   | 25 | 나누어 떨어지는 숫자 배열 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12910) | 완료 |
   | 26 | 시저 암호 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12926) | 완료 |
   | 27 | 문자열 내 마음대로 정렬하기 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12915) | 완료 |
+
+
+  - <span style="font-size:20px"><b>Level2</b></span>
+    | No | Title | URL | Status |
+    | :------------- | :------------- | :------------- | :------------- |
+    | 1 |  |  |  |
