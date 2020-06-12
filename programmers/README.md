@@ -45,16 +45,14 @@
 - <span style="font-size:20px"><b>Level2</b></span>
   | No | Title | URL | Status |
   | :------------- | :------------- | :------------- | :------------- |
-  | 1 |  |  |  |
+  | 1 | 가장 큰 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42746) | 완료 |
+  | 2 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 진행 중 |
 
 
 
 - <span style="font-size:20px"><b>고딩테스트 고득점 Kit</b></span>
   | No | Title | URL | Algorithm | Level | Status |
   | :------------- | :------------- | :------------- | :------------- | :------------- | :------------- |
-  | 1 | 다리를 지나는 트럭 | [출처]() | 스택/큐 | Level2 |  |
-  | 2 | 기능개발 | [출처]() | 스택/큐 | Level2 |  |
-  | 3 | 탑 | [출처]() | 스택/큐 | Level2 |  |
-  | 4 | 프린터 | [출처]() | 스택/큐 | Level2 |  |
-  | 5 | 쇠막대기 | [출처]() | 스택/큐 | Level2 |  |
-  | 6 | 주식가격 | [출처]() | 스택/큐 | Level2 |  |
+  | 1 | K번째 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42748) | 정렬 | Level1 | 완료 |
+  | 2 | 가장 큰 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 | Level2 | 완료 |
+  | 3 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 스택/큐 | Level2 | 진행 중 |
