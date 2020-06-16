@@ -47,6 +47,7 @@
   | :------------- | :------------- | :------------- | :------------- |
   | 1 | 가장 큰 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42746) | 완료 |
   | 2 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 진행 중 |
+  | 3 | H-Index | [출처](https://programmers.co.kr/learn/courses/30/lessons/42747) | 완료 |
 
 
 
@@ -56,3 +57,4 @@
   | 1 | K번째 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42748) | 정렬 | Level1 | 완료 |
   | 2 | 가장 큰 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 | Level2 | 완료 |
   | 3 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 스택/큐 | Level2 | 진행 중 |
+  | 4 | H-Index | [출처](https://programmers.co.kr/learn/courses/30/lessons/42747) | 스택/큐 | Level2 | 완료 |
