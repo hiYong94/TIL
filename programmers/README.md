@@ -48,6 +48,8 @@
   | 1 | 가장 큰 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42746) | 완료 |
   | 2 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 진행 중 |
   | 3 | H-Index | [출처](https://programmers.co.kr/learn/courses/30/lessons/42747) | 완료 |
+  | 4 | 탑 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42588) | 완료 |
+  | 5 | 기능개발 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42586) | 완료(재풀이 진행중) |
 
 
 
@@ -58,3 +60,5 @@
   | 2 | 가장 큰 수 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 | Level2 | 완료 |
   | 3 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 스택/큐 | Level2 | 진행 중 |
   | 4 | H-Index | [출처](https://programmers.co.kr/learn/courses/30/lessons/42747) | 스택/큐 | Level2 | 완료 |
+  | 5 | 탑 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42588) | 스택/큐 | Level2 | 완료 |
+  | 6 | 기능개발 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐 | Level2 | 완료(재풀이 진행중) |
