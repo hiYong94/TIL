@@ -49,8 +49,9 @@
   | 2 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 진행 중 |
   | 3 | H-Index | [출처](https://programmers.co.kr/learn/courses/30/lessons/42747) | 완료 |
   | 4 | 탑 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42588) | 완료 |
-  | 5 | 기능개발 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42586) | 완료(재풀이 진행중) |
-
+  | 5 | 기능개발 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42586) | 완료(재풀이 진행중) 
+  | 6 | 124 나라의 숫자 | [출처](https://programmers.co.kr/learn/courses/30/lessons/12899) | 완료 |
+  | 7 | 기능개발 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42586) | 완료 |
 
 
 - <span style="font-size:20px"><b>고딩테스트 고득점 Kit</b></span>
@@ -61,4 +62,4 @@
   | 3 | 다리를 지나는 트럭 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42583) | 스택/큐 | Level2 | 진행 중 |
   | 4 | H-Index | [출처](https://programmers.co.kr/learn/courses/30/lessons/42747) | 스택/큐 | Level2 | 완료 |
   | 5 | 탑 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42588) | 스택/큐 | Level2 | 완료 |
-  | 6 | 기능개발 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐 | Level2 | 완료(재풀이 진행중) |
+  | 6 | 기능개발 | [출처](https://programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐 | Level2 | 완료 |
