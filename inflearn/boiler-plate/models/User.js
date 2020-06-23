@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+
 const userSchema = mongoose.Schema({
     name : {
         type : String,
@@ -11,7 +12,7 @@ const userSchema = mongoose.Schema({
     },
     password: {
         type: String,
-        maxlength: 5
+        maxlength: 10
     },
     lastname: {
         type: String,
@@ -26,7 +27,7 @@ const userSchema = mongoose.Schema({
         type: String
     },
     tokenExp: {     // 유효기간
-        type, Number
+        type: Number
     }
 })
 
