@@ -22,6 +22,10 @@ mongoose.connect(config.mongoURI, {
 .catch(error => console.log(error))
 
 app.get('/', (req, res) => res.send('Hello World!, 안녕하세요~'))
+app.get('/api/hello', (request, response) => {
+    response.send('Hello World ~!')
+})
+
 app.listen(port, () => console.log(`Example app listening at ${port}`))
 
 // 회원가입을 위한 route 생성 
