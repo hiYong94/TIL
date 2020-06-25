@@ -60,6 +60,7 @@ app.post('/api/users/login', (request, response) => {
             })
         }
 
+        // 요청된 이멜이이 데이터베이스에 있다면 비밀번호를 확인
         user.comparePassword(request.body.password, (error, isMatch) => {
             if(!isMatch) {
                 return response.json({
