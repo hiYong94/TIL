@@ -103,20 +103,20 @@
 	> - JWT의 구조는 ' . '를 구분자로 헤더(Header), 내용(Payload), 서명(Signature)로 이루어져 있다.
 	>	> 1. 헤더(Header)는 typ와 alg로 구성되어있다.
 	>	> ```
-			{
-				"typ": "JWT",	// 토큰의 타입
-				"alg: "RSA"	// 해싱 알고리즘을 지정한다. SHA256 또는 RSA가 사용되며, 토큰을 검증할 때 사용한다.
-			}
+	>		{
+	>			"typ": "JWT",	// 토큰의 타입
+	>			"alg: "RSA"	// 해싱 알고리즘을 지정한다. SHA256 또는 RSA가 사용되며, 토큰을 검증할 때 사용한다.
+	>		}
 	>	> ```
 	>	> 2. 정보(Payload)는 토큰의 정보가 담겨 있으며, 담겨 있는 정보의 한 조각을 클레임(claim)이라고 명칭한다. 클레임은 name/value의 한쌍으로 이루어져 있다.
 	>	> ```
-			{
-				"iss": "hiYong",	// 토큰의 발급자
-		    	"exp": "1485270000000",	// 토큰의 만료시간
-			    "https://...: true,	// 공개 클레임(충돌이 방지된 이름으로 이루어져야하며 해당 클레임은 URI형식으로 이루어져있다.)
-			    "userId": "11028373727102",	// 비공개 클레임
-			    "username": "velopert"	// 비공개 클레임
-			}
+	>		{
+	>			"iss": "hiYong",	// 토큰의 발급자
+	>	    	"exp": "1485270000000",	// 토큰의 만료시간
+	>		    "https://...: true,	// 공개 클레임(충돌이 방지된 이름으로 이루어져야하며 해당 클레임은 URI형식으로 이루어져있다.)
+	>		    "userId": "11028373727102",	// 비공개 클레임
+	>		    "username": "velopert"	// 비공개 클레임
+	>		}
 	>	> ```
 	>	> 3. 서명(signature)는 헤더의 인코딩 값과 정보의 인코딩 값을 합쳐 비밀키로 해쉬를 하여 생성하는 부분이며 인코딩은 BASE64로 한다.
 
@@ -141,8 +141,8 @@
 	> 		3. 비교
 	> 			- React 16.8 기준으로 Functional Component를 Class Component 처럼 사용할 수 있다.
 	> 			- React 생명주기를 참고할 것
-	> - 리액트는 데이터의 흐름이 한 방향으로 흐른다. 따라서 부모 컴포넌트의 데이터를 변경하기 위해서는 state를 이용해야한다
-	>	<img src="\asset\리액트컴포넌트.PNG" width="600" height="400" />
+	> - 리액트는 데이터의 흐름이 한 방향으로 흐른다. 따라서 부모 컴포넌트의 데이터를 변경하기 위해서는 state를 이용해야한다<br>
+	>	<img src="https://user-images.githubusercontent.com/40785404/85841405-0c473180-b7d9-11ea-873c-896eaac34aa3.PNG" width="600" height="400" />
 	>
 	> - 리덕스(Redux) 란?
 	> 	- 상태 관리 라이브러리이다. -> redux를 이용하여 컴포넌트를 직접 거치지 않고 state를 관리할 수 있다.
@@ -172,7 +172,7 @@
 	> 	}
 	>	```
 	> 	- 리덕스 데이터 흐름<br>
-	>	<img src="\asset\리덕스데이터흐름.PNG" width="600" height="400" />
+	>	<img src="https://user-images.githubusercontent.com/40785404/85841357-f9346180-b7d8-11ea-8a06-cbce179ddcd7.PNG" width="600" height="400" />
 	> - [리액트 및 리덕스 참고자료](https://react.vlpt.us/)
 
 	<hr>
