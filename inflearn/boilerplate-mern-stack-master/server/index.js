@@ -28,6 +28,7 @@ const connect = mongoose.connect(config.mongoURI,
 //https://stackoverflow.com/questions/48914987/send-image-path-from-node-js-express-server-to-react-client
 app.use('/uploads', express.static('uploads'))
 app.use('/api/users', require('./routes/users'))
+app.use('/api/favorite', require('./routes/favorite'))
 
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"))
