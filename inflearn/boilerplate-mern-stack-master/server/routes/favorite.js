@@ -31,4 +31,26 @@ router.post('/favorited', (request, response) => {
         })
 })
 
+router.post('/removeFromFavorite', (request, response) => {
+    Favorite.findOneAndDelete({ movieId: request.body.movieId, userFrom: request.body.userFrom })
+        .exec((error, document) => {
+            if(error) {
+                return response.status(400).send(error)
+            }
+
+            return response.status(200).json({ success: true, document })
+        })
+})
+
+router.post('/addToFavorite', (request, response) => {
+    const favorite = new Favorite(request.body)
+
+    favorite.save((error, document) => {
+        if(error) {
+            return response.status(400).send(error)
+        }
+        return response.status(200).json({ success: true })
+    })
+})
+
 module.exports = router

@@ -12,6 +12,7 @@ function MovideDetail(props) {
 
     const [Movie, setMovie] = useState([])
     const [Casts, setCasts] = useState([])
+    const [LoadingForMovie, setLoadingForMovie] = useState(true)
 
     // 기본 state를 false onClick 할 때 마다 true
     const [ActorToggle, setActorToggle] = useState(false)
@@ -25,14 +26,13 @@ function MovideDetail(props) {
         fetch(endpointInfo)
             .then(response => response.json())
             .then(response => {
-                console.log(response)
                 setMovie(response)
+                setLoadingForMovie(false)
             })
 
         fetch(endpointCrew)
             .then(response => response.json())
             .then(response => {
-                console.log(response)
                 setCasts(response.cast)
             })
 
@@ -45,11 +45,15 @@ function MovideDetail(props) {
     return (
         <div>
             {/* Header */}
-            <MainImage
-                image={`${IMAGE_BASE_URL}w1280${Movie.backdrop_path}`}
-                title={Movie.original_title}
-                text={Movie.overview}
-            />
+            {!LoadingForMovie ?
+                <MainImage
+                    image={`${IMAGE_BASE_URL}w1280${Movie.backdrop_path}`}
+                    title={Movie.original_title}
+                    text={Movie.overview}
+                />
+                :
+                <div>loading...</div>
+            }
             
             {/* body */}
             <div style={{ width: '85%', margin: '1rem auto' }}>
