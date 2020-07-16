@@ -53,4 +53,24 @@ router.post('/addToFavorite', (request, response) => {
     })
 })
 
+router.post('/getFavoredMovie', (request, response) => {
+    Favorite.find({ 'userFrom': request.body.userFrom })
+        .exec((error, favorites) => {
+            if(error) {
+                return response.status(400).send(error)
+            }
+
+            return response.status(200).json({ success: true, favorites })
+        })
+})
+
+router.post('/removeFromFavorite', (request, response) => {
+    Favorite.findOneAndDelete({ movieId: request.body.movieId, userFrom: request.body.userFrom })
+        .exec((error, result) => {
+            if(error) {
+                return response.status(400).send(error) 
+            } 
+            return response.status(200).json({ success: true, result })
+        })
+})
 module.exports = router

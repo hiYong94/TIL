@@ -50,7 +50,7 @@ function Favorite(props) {
             .then(response => {
                 if(response.data.success) {
                     setFavoriteNumber(FavoriteNumber - 1)
-                    setFavorited(!Favorite)
+                    setFavorited(!Favorited)
                 } else {
                     alert('Favorite 리스트에서 지우는 걸 실패했습니다.')
                 }
@@ -60,7 +60,7 @@ function Favorite(props) {
             .then(response => {
                 if(response.data.success) {
                     setFavoriteNumber(FavoriteNumber + 1)
-                    setFavorited(!Favorite)
+                    setFavorited(!Favorited)
                 } else {
                     alert('Favorite 리스트에서 추가하는 걸 실패했습니다.')
                 }

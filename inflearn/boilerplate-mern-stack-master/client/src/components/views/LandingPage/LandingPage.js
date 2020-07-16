@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { FaCode } from "react-icons/fa"
 import { API_URL, API_KEY, IMAGE_BASE_URL } from '../../Config'
 import MainImage from './Sections/MainImage'
 import GridCards from '../commons/GridCards'
@@ -27,7 +26,7 @@ function LandingPage() {
             {/* Main Image */}
             {/* 값이 있으면 실행해라 */}
             {MainMovieImage &&
-                <MainImage image={`${IMAGE_BASE_URL}w1280/${MainMovieImage.backdrop_path}`}
+                <MainImage image={`${IMAGE_BASE_URL}w1280${MainMovieImage.backdrop_path}`}
                     title={MainMovieImage.original_title}
                     text={MainMovieImage.overview}
                 />
@@ -44,7 +43,7 @@ function LandingPage() {
                             <GridCards
                                 lendingPage
                                 image={movie.poster_path ?
-                                    `${IMAGE_BASE_URL}w500/${movie.poster_path}` : null}
+                                    `${IMAGE_BASE_URL}w500${movie.poster_path}` : null}
                                 movieId={movie.id}
                                 movieName={movie.original_title}
                             />

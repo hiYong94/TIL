@@ -8,11 +8,11 @@ import { Row } from 'antd'
 
 function MovideDetail(props) {
     // url 의 값을 가져올 수 있다.
-    let movieId = props.match.params.movieId
+    const movieId = props.match.params.movieId
 
     const [Movie, setMovie] = useState([])
     const [Casts, setCasts] = useState([])
-    const [LoadingForMovie, setLoadingForMovie] = useState(true)
+    // const [LoadingForMovie, setLoadingForMovie] = useState(true)
 
     // 기본 state를 false onClick 할 때 마다 true
     const [ActorToggle, setActorToggle] = useState(false)
@@ -27,7 +27,7 @@ function MovideDetail(props) {
             .then(response => response.json())
             .then(response => {
                 setMovie(response)
-                setLoadingForMovie(false)
+                // setLoadingForMovie(false)
             })
 
         fetch(endpointCrew)
@@ -45,7 +45,7 @@ function MovideDetail(props) {
     return (
         <div>
             {/* Header */}
-            {!LoadingForMovie ?
+            
                 <MainImage
                     image={`${IMAGE_BASE_URL}w1280${Movie.backdrop_path}`}
                     title={Movie.original_title}
@@ -53,7 +53,7 @@ function MovideDetail(props) {
                 />
                 :
                 <div>loading...</div>
-            }
+            
             
             {/* body */}
             <div style={{ width: '85%', margin: '1rem auto' }}>
@@ -83,7 +83,7 @@ function MovideDetail(props) {
                             <React.Fragment key={index}>
                                 <GridCards
                                     image={cast.profile_path ?
-                                        `${IMAGE_BASE_URL}w500/${cast.profile_path}` : null}
+                                        `${IMAGE_BASE_URL}w500${cast.profile_path}` : null}
                                     characterName={cast.oname}
                                 />
                             </React.Fragment>

@@ -11,8 +11,8 @@ import { useSelector, useDispatch } from "react-redux"
 export default function (SpecificComponent, option, adminRoute = null) {
     // back-end에 request
     function AuthenticationCheck(props) {
-        let user = useSelector(state => state.user);
-        const dispatch = useDispatch();
+        let user = useSelector(state => state.user)
+        const dispatch = useDispatch()
 
         useEffect(() => {
             dispatch(auth()).then(response => {
