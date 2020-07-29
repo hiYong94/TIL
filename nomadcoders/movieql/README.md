@@ -34,45 +34,48 @@
 >       - 따라서 URL의 체계를 사라지게하며, 불필요함을 최소화 할 수 있다.
 >       
 >       - 다음과 같이 예를 들어 GraphQL Query를 요청하면 Javascript 응답을 받을 수 있다.
->   ```
->   query {
->       feed {
->           comments
->           likeNumber
+>       ```
+>       query {
+>           feed {
+>               comments
+>               likeNumber
+>           }
+>           notifications {
+>               isRead
+>           }
+>           user {
+>               userName
+>               profilePic
+>           }
 >       }
->       notifications {
->           isRead
->       }
->       user {
->           userName
->           profilePic
->       }
->   }
->   ```
->   다음 GraphQL Query는 Javascript 코드를 반환한다.
->   ```
->    javascript
->    {
->        feed: [
->            {
->                comment: 1,
->                likeNumber: 20
->            }
->        ],
->        notifications: [
->            {
->                isRead: true
->            },
->            {
->                isRead: false
->            }
->        ],
->        user: {
->            userName: "hiyong"
->            profile: "https:"
->        }
->    }
+>       ```
 >
+>       다음 GraphQL Query는 Javascript 코드를 반환한다.
+>
+>       ```
+>       javascript
+>       {
+>           feed: [
+>               {
+>                   comment: 1,
+>                   likeNumber: 20
+>               }
+>           ],
+>           notifications: [
+>               {
+>                   isRead: true
+>               },
+>               {
+>                   isRead: false
+>               }
+>           ],
+>           user: {
+>                   userName: "hiyong"
+>                   profile: "https:"
+>           }
+>       }
+>   
+>   
 >   - Query : 데이터를 받아오는 역할 (조회)
 >   - Mutation : 데이터를 변경하는 역할 (입력, 수정, 삭제)
 >   - Resolver 는 Query에 대한 요청을 서버가 어떻게 처리할지 정의한다.
